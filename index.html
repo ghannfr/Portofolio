@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Kelompok 4</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Add padding to body for fixed navbar */
+        body {
+            padding-top: 56px; /* Height of navbar */
+        }
+
+        /* Navbar gradient background */
+        .navbar {
+            background: linear-gradient(90deg, #42071e, #fe7b7b);
+        }
+
+        /* Fullscreen Home section styling */
+        #home {
+            background-color: #ffe1e1;
+            height: 100vh; /* Full height */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        /* About section styling */
+        #about {
+            background: #4b0c21;
+            color: white;
+            padding: 100px 0;
+        }
+
+        /* Portfolio section styling */
+        #portfolio {
+            background: #ffd9d9;
+            padding: 100px 0;
+        }
+
+        /* Contact section styling */
+        #contact {
+            background-color: #3f0e1e;
+            color: white;
+            padding: 100px 0;
+        }
+
+        /* Card hover effect */
+        .card {
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar with fixed-top -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <a class="navbar-brand" href="#">Portofolio Kelompok 4</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">Tentang Kami</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Galeri</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Rest of your existing code remains the same -->
+<!-- Home Section -->
+<section id="home">
+    <h1>Selamat Datang di Portofolio Kelompok 4</h1>
+</section>
+
+<!-- About Section -->
+<section id="about" class="text-center">
+    <div class="container">
+        <h2>Tentang Kami</h2>
+        <p>Kami terbiasa membuat website dengan desain kreatif. Pada kali ini kami telah membuat sebuah portofolio kelompok kami. Portofolio ini dibuat untuk memenuhi tugas kelompok yang dituntaskan sebelum dilaksanakannya UTS.</p>
+    </div>
+</section>
+
+<!-- Portfolio Layout -->
+<section id="portfolio">
+    <div class="container">
+        <h2 class="text-center mb-5">Galeri</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="ghani.jpg" class="card-img-top" alt="Project 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Ghani Nasywa</h5>
+                        <p class="card-text">20231310082</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="alwi.jpg" class="card-img-top" alt="Project 2">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Hafidzin Alwi</h5>
+                        <p class="card-text">20231310078</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="febrii.jpg" class="card-img-top" alt="Project 3">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Febriansyah</h5>
+                        <p class="card-text">20231310096</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="ferdy.jpg" class="card-img-top" alt="Project 4">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Ferdiansyah</h5>
+                        <p class="card-text">20231310097</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="siti.jpg" class="card-img-top" alt="Project 5">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Siti Khodijah</h5>
+                        <p class="card-text">20231310111</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="text-center">
+    <div class="container">
+        <h2>Kontak</h2>
+        <p>Hubungi saya melalui media sosial atau telepon.</p>
+        <p>Telepon: 085603406397 | Instagram: @classythreeey</p>
+    </div>
+</section>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
